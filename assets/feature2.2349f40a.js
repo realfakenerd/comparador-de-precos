@@ -1,1 +1,0 @@
-import{S as i,i as p,s as m,e as r,f as c,j as o,n as f,l}from"./vendor.64a25fd0.js";function x(u){let t,n,s;return{c(){t=r("h1"),t.textContent="Feature 2",n=c(),s=r("b"),s.textContent="v1 feature"},m(e,a){o(e,t,a),o(e,n,a),o(e,s,a)},p:f,i:f,o:f,d(e){e&&l(t),e&&l(n),e&&l(s)}}}class v extends i{constructor(t){super();p(this,t,null,x,m,{})}}export{v as default};
