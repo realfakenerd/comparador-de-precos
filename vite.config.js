@@ -12,7 +12,9 @@ export default defineConfig({
     plugins: [
         svelte(),
         // @ts-ignore
-        publish('dist', (err) => {
+        publish('dist', {
+            message: 'Gerado automáticamente pelo ghPages'
+        }, (err) => {
             console.log("Published to github", err)
         })
     ],
